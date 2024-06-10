@@ -49,5 +49,10 @@ async function getPhotos(){
     }
 }
 
+// Check to see if scrolling near bottom of page, Load more photos
+window.addEventListener('scroll', ()=>{
+    console.log('scrolled');
+})
+
 // On load
 getPhotos();
